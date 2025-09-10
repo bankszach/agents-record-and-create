@@ -1,0 +1,59 @@
+{
+  "company": { "name": "Acme Glazing" },
+  "employees": [
+    { "name": "Aaron Cole", "role": "Journeyman" },
+    { "name": "Bethany Ortiz", "role": "Journeyman" },
+    { "name": "Carlos Nguyen", "role": "Journeyman" },
+    { "name": "Dana Patel", "role": "Journeyman" },
+    { "name": "Ethan Rivera", "role": "Journeyman" },
+    { "name": "Fiona Chen", "role": "Journeyman" },
+    { "name": "Gabriel Torres", "role": "Journeyman" },
+    { "name": "Hannah Lewis", "role": "Journeyman" },
+    { "name": "Ivan Morales", "role": "Journeyman" },
+    { "name": "Julia Park", "role": "Journeyman" },
+    { "name": "Kevin Brooks", "role": "Apprentice", "apprentice_period": "Year 1" },
+    { "name": "Leah Simmons", "role": "Apprentice", "apprentice_period": "Year 2" },
+    { "name": "Marcus Young", "role": "Apprentice", "apprentice_period": "Year 3" },
+    { "name": "Nadia Foster", "role": "Apprentice", "apprentice_period": "Year 1" },
+    { "name": "Omar Bennett", "role": "Apprentice", "apprentice_period": "Year 2" },
+    { "name": "Priya Shah", "role": "Apprentice", "apprentice_period": "Year 3" },
+    { "name": "Quentin Lam", "role": "Apprentice", "apprentice_period": "Year 1" },
+    { "name": "Rosa Castillo", "role": "Apprentice", "apprentice_period": "Year 2" },
+    { "name": "Samuel Kim", "role": "Apprentice", "apprentice_period": "Year 3" },
+    { "name": "Tiana Wallace", "role": "Apprentice", "apprentice_period": "Year 1" }
+  ],
+  "jobsites": [
+    { "code": "HQP", "name": "Headquarters Plaza" },
+    { "code": "M567", "name": "Triton Center" }
+  ],
+  "materials": [
+    { "key": "metal", "label": "Metal", "description": "All metal framing, anchors, clips." },
+    { "key": "glass", "label": "Glass", "description": "Insulated units, spandrel, lites." },
+    { "key": "doors", "label": "Doors", "description": "Frames, slabs, hardware sets." },
+    { "key": "other", "label": "Other", "description": "Miscellaneous consumables or site-specific." }
+  ]
+  ,
+  "labor_activities": [
+    {
+      "key": "unit_install",
+      "label": "Unit Install",
+      "description": "Primary labor for installing units (glazing, frame, etc.)",
+      "default_quantity": null,
+      "default_unit": "hours"
+    },
+    {
+      "key": "group_stretch",
+      "label": "Group Stretch & Flex",
+      "description": "Morning stretch/flex as a crew",
+      "default_quantity": 0.25,
+      "default_unit": "hours"
+    },
+    {
+      "key": "safety_meeting",
+      "label": "Safety Meeting",
+      "description": "Tailgate/JSA or site safety briefing",
+      "default_quantity": 0.25,
+      "default_unit": "hours"
+    }
+  ]
+}
